@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container {
+    padding: 1rem 2rem 0rem 18rem;
+}
+section {
+    padding: 170px 0;
+    border: 1px solid gray;
+}
+
+.navbarTop {
+    width: 100%;
+    background-color: #bd5d38;
+    display: none !important;
+    position: fixed;
+    z-index: 1;
+    padding: 10px 0;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    font-family: "Mulish", sans-serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarTop i {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-size: 24px;
+    color: lightgray;
+    opacity: 0.7;
+}
+
+.burger {
+    display: none;
+    width: 100%;
+    gap: 20px;
+    padding-left: 2rem;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: #db805c;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+p {
+    color: rgb(110, 110, 110);
+}
+.navbarLeft .collapse {
+    position: absolute;
+    left: 29%;
+    top: 34%;
+}
+.navbarLeft {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    top: 0%;
+    width: 17rem;
+    height: 120vh;
+    background-color: #bd5d38 !important;
+}
+nav a:hover {
+    color: #ffffff !important;
+}
+nav h1 {
+    font-family: "Saira Condensed", sans-serif;
+}
+nav .image {
+    position: absolute;
+    top: 10%;
+    left: 14%;
+    width: 160px;
+    height: 160px;
+    border: 8px solid #db805c;
+    border-radius: 50%;
+}
+nav .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 48%;
+}
+nav a {
+    color: #efb098 !important;
+    font-weight: 900;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+}
+#about h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+#about h5 {
+    color: gray;
+}
+#about a {
+    color: #bd5d38;
+}
+#about p {
+    margin: 20px 0;
+}
+#about span {
+    color: #bd5d38;
+}
+@media screen and (max-width: 992px) {
+    .logo:hover .burger{
+        display: block;
+    }
+    
+    #about h1 {
+        font-size: 40px;
+    }
+    .navbarLeft {
+        display: none;
+    }
+    .navbarTop {
+        display: block !important;
+    }
+    header {
+        background-color: #db805c;
+        color: white;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+    .icons2 {
+        gap: 10px;
+    }
+    .icons2 i {
+        font-size: 14px;
+    }
+    section {
+        padding: 100px 0 60px !important;
+        margin: 0 !important;
+    }
+}
+.col-12 h1 {
+    margin-bottom: 10px;
+}
+.col-9 h5 {
+    color: gray;
+}
+.col-3 {
+    color: #bd5d38;
+}
+.col-3,
+.col-9 {
+    margin-top: 30px;
+}
+.icons a i {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    padding: 14px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    border-radius: 50%;
+    /* margin-right: 30px; */
+}
+.card {
+    border: none;
+}
+#awards i {
+    color: gold;
+    margin: 8px;
+}
+/* skills */
+#skills .icons2 {
+    gap: 30px;
+    margin-bottom: 30px;
+}
+#skills .icons2 i {
+    font-size: 50px;
+    color: gray;
+    background-color: transparent;
+}
+ul i {
+    margin-right: 8px;
+}
